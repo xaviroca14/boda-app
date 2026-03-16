@@ -23,7 +23,7 @@ export default function Home() {
         {/* LOGO */}
         <img
   src="/logo.png"
-  alt="Logo Xavier i Marina"
+  alt="Logo Xavi i Marina"
   style={logo}
   className="logo-in logo-breath"
 />
