@@ -41,7 +41,7 @@ export default function Home() {
               <div style={{ fontSize: 12, opacity: 0.92, letterSpacing: 0.8 }}>
                 03–05 d’abril de 2026
               </div>
-              <div style={heroTitle}>Xavier & Marina</div>
+              <div style={heroTitle}>Xavi & Marina</div>
               <div style={{ fontSize: 13, opacity: 0.92, marginTop: 4 }}>
                 Viladrau · muntanya · casa · gent estimada
               </div>
