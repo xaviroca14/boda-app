@@ -1,0 +1,63 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ENTRADA GENERAL DE LA PÀGINA */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fadeUp 0.9s ease forwards;
+}
+
+/* ENTRADA DEL LOGO, MÉS MARCADA */
+@keyframes logoFloatIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.88) rotate(-2deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1) rotate(0deg);
+  }
+}
+
+.logo-in {
+  animation: logoFloatIn 1.1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* PETITA RESPIRACIÓ SUAU DEL LOGO DESPRÉS D’ENTRAR */
+@keyframes logoBreath {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.025);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.logo-breath {
+  animation: logoBreath 3.2s ease-in-out 1.2s infinite;
+}
