@@ -10,20 +10,27 @@ export default function Programa() {
 
           <div style={card}>
             <p style={text}>
-              <strong>09:00</strong> · Convocatòria a la <strong>Plaça de la Vila del Brull</strong>
+              <strong>08:55</strong> · Sortida del bus des de la{" "}
+              <strong>Plaça de la Vila del Brull</strong>.
             </p>
 
             <p style={text}>
-              Des d’allà agafarem un <strong>autobús fins a Collformic</strong>,
-              ja que és complicat aparcar a dalt.
+              El bus té places limitades, així que molta gent pujarà amb vehicle
+              privat.
+            </p>
+
+            <p style={text}>
+              <strong>09:30</strong> · Convocatòria general a{" "}
+              <strong>Collformic</strong>.
+            </p>
+
+            <p style={text}>
+              Cadascú pot arribar-hi com vulgui. A la zona hi ha dos pàrquings
+              (aprox. 20 i 40 places).
             </p>
 
             <p style={text}>
               <strong>Ruta:</strong> Collformic → Matagalls → Collformic
-            </p>
-
-            <p style={text}>
-              Excursió pel Montseny per començar el cap de setmana junts.
             </p>
 
             <p style={text}>
@@ -32,13 +39,12 @@ export default function Programa() {
             </p>
 
             <p style={text}>
-              <strong>17:00 aprox.</strong> · Arribada al <strong>Casal Sagrat Cor de Viladrau </strong>
-              per ajudar amb els preparatius del dia següent.
+              <strong>17:00 aprox.</strong> · Arribada al{" "}
+              <strong>Casal Sagrat Cor de Viladrau</strong> per ajudar amb els
+              preparatius del dia següent.
             </p>
 
-            <p style={text}>
-              Al vespre: sopar i nit a la casa.
-            </p>
+            <p style={text}>Al vespre: sopar i nit a la casa.</p>
           </div>
         </section>
 
@@ -51,17 +57,13 @@ export default function Programa() {
               <strong>12:30</strong> · Convocatòria
             </p>
 
-            <p style={text}>
-              Benvinguda i agraïment.
-            </p>
+            <p style={text}>Benvinguda i agraïment.</p>
 
             <p style={text}>
               <strong>Pica-pica</strong>, dinar i sobretaula.
             </p>
 
-            <p style={text}>
-              Activitat dinamitzada.
-            </p>
+            <p style={text}>Activitat dinamitzada.</p>
 
             <p style={text}>
               <strong>Ressopó</strong>, discoteca i barra lliure.

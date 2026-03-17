@@ -8,25 +8,26 @@ export default function Llocs() {
         <section style={mapCard}>
           <h2 style={h2}>🗺 Itinerari del cap de setmana</h2>
           <p style={text}>
-            Esquema orientatiu del recorregut de divendres fins a l’arribada a la casa.
+            Esquema orientatiu del recorregut de divendres fins a l’arribada a
+            la casa.
           </p>
 
           <div style={routeWrap}>
             <div style={node}>
-              <div style={dot}>📍</div>
+              <div style={dot}>🚌</div>
               <div>
                 <div style={nodeTitle}>Plaça de la Vila · El Brull</div>
-                <div style={nodeText}>Punt de trobada · 09:00</div>
+                <div style={nodeText}>Bus a les 08:55</div>
               </div>
             </div>
 
             <div style={line} />
 
             <div style={node}>
-              <div style={dot}>🚌</div>
+              <div style={dot}>📍</div>
               <div>
                 <div style={nodeTitle}>Collformic</div>
-                <div style={nodeText}>Inici de la ruta</div>
+                <div style={nodeText}>Convocatòria general a les 09:30</div>
               </div>
             </div>
 
@@ -52,22 +53,22 @@ export default function Llocs() {
           </div>
         </section>
 
-        {/* PUNT DE TROBADA */}
+        {/* PLAÇA DEL BRULL */}
         <section style={card}>
-          <h2 style={h2}>📍 Plaça de la Vila · El Brull</h2>
+          <h2 style={h2}>🚌 Plaça de la Vila · El Brull</h2>
 
           <p style={text}>
-            Punt de trobada <strong>divendres a les 09:00</strong>.
+            Des d’aquí surt el <strong>bus a les 08:55</strong>.
           </p>
 
           <p style={text}>
-            Des d’aquí agafarem un <strong>autobús fins a Collformic</strong>,
-            ja que és complicat aparcar a dalt.
+            El bus té places limitades, així que no tothom hi pujarà.
           </p>
 
           <a
             href="https://maps.google.com/?q=El+Brull+plaça+de+la+vila"
             target="_blank"
+            rel="noreferrer"
             style={button}
           >
             Obrir a Google Maps
@@ -76,40 +77,47 @@ export default function Llocs() {
 
         {/* COLLFORMIC */}
         <section style={card}>
-          <h2 style={h2}>🏔 Collformic</h2>
+          <h2 style={h2}>📍 Collformic</h2>
 
           <p style={text}>
-            Punt d’inici de l’excursió cap al <strong>Matagalls</strong>.
+            Punt de trobada principal de divendres a les <strong>09:30</strong>.
           </p>
 
           <p style={text}>
-            Des d’aquí començarem la ruta fins al cim i tornada.
+            Cadascú pot arribar-hi com vulgui. Hi ha dos pàrquings a la zona
+            (aprox. 20 i 40 places).
+          </p>
+
+          <p style={text}>
+            Aquest és el punt d’inici de la ruta cap al <strong>Matagalls</strong>.
           </p>
 
           <a
             href="https://maps.google.com/?q=Collformic"
             target="_blank"
+            rel="noreferrer"
             style={button}
           >
-            Veure ubicació
+            Obrir a Google Maps
           </a>
         </section>
 
-        {/* RUTA */}
+        {/* RUTA WIKILOC */}
         <section style={card}>
-          <h2 style={h2}>🥾 Excursió Matagalls</h2>
+          <h2 style={h2}>🥾 Ruta Matagalls</h2>
 
           <p style={text}>
-            Ruta circular des de Collformic passant per les 11 fonts fins al Matagalls.
+            Ruta des de Collformic fins al Matagalls i tornada.
           </p>
 
           <p style={text}>
-            Caminada pel Montseny per començar el cap de setmana plegats.
+            Si vols veure el recorregut complet, aquí tens l’enllaç a Wikiloc:
           </p>
 
           <a
             href="https://es.wikiloc.com/rutas-senderismo/collformic-matagalls-per-les-11-fonts-132279035?h=xmen7rv9km&wa=sd&utm_campaign=badge&utm_source=unknown&utm_medium=unknown"
             target="_blank"
+            rel="noreferrer"
             style={button}
           >
             Veure la ruta a Wikiloc
@@ -125,8 +133,8 @@ export default function Llocs() {
           </p>
 
           <p style={text}>
-            Arribarem aproximadament a les <strong>17:00</strong> després de l’excursió
-            per preparar el dia següent.
+            Arribarem aproximadament a les <strong>17:00</strong> després de
+            l’excursió.
           </p>
 
           <p style={note}>
@@ -137,6 +145,7 @@ export default function Llocs() {
           <a
             href="https://maps.google.com/?q=Casal+Sagrat+Cor+Viladrau"
             target="_blank"
+            rel="noreferrer"
             style={button}
           >
             Obrir a Google Maps
