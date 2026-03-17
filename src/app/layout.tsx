@@ -13,8 +13,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Boda Xavi & Marina",
+  title: "Marina & Xavi",
   description: "3 · 4 · 5 abril 2026 — Viladrau",
+
+  openGraph: {
+    title: "Marina & Xavi",
+    description: "3 · 4 · 5 abril 2026 — Viladrau",
+    images: ["/preview.jpg"],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Marina & Xavi",
+    description: "3 · 4 · 5 abril 2026 — Viladrau",
+    images: ["/preview.jpg"],
+  },
 };
 
 export default function RootLayout({
