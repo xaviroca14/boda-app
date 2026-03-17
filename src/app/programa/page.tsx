@@ -15,7 +15,7 @@ export default function Programa() {
             </p>
 
             <p style={text}>
-              El bus té places limitades, així que molta gent pujarà amb vehicle
+              El bus té places limitades (16), així que molta gent haurà de amb vehicle
               privat.
             </p>
 
